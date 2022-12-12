@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        .centered-form {
+            text-align: center;
+        }
+        body {
+            COLOR: #ffffff;
+            FONT-FAMILY: sans-serif;
+            FONT-SIZE: 12px;
+            BACKGROUND-COLOR: #808080;
+        }
+
+        td {
+            FONT-FAMILY: sans-serif;
+            FONT-SIZE: 12px;
+        }
+
+        A:LINK, A:VISITED, A:ACTIVE {
+            COLOR: #ffffff;
+            TEXT-DECORATION: underline;
+        }
+        A:HOVER {
+            COLOR: #ffffff;
+            TEXT-DECORATION: none;
+        }
+
+        input {
+            FONT-SIZE: 12px;
+            FONT-FAMILY: Tahoma,Helvetica;
+            COLOR: #000000;
+            BACKGROUND-COLOR: #CFCFCF;
+            border-top-width : 1px;
+            border-right-width : 1px;
+            border-bottom-width : 1px;
+            border-left-width : 1px;
+            text-indent : 2px;
+        }
+    </style>
+</head>
+<body>
+
+<form method="post" action="login.php" name="lform">
+    <table align="center">
+        <tr>
+            <td>
+                <table align="center">
+                    <tr>
+                        <td><b>Benutzername:</b></td>
+                        <td><input type="text" name="l_username" value="" maxlength="50" /></td>
+                    </tr>
+                    <tr>
+                        <td><b>Passwort:</b></td>
+                        <td><input type="password" name="l_password" maxlength="50" /></td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right"><input type="submit" accesskey="S" value="Anmelden" /></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
