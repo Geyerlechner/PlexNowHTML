@@ -1,0 +1,35 @@
+.centered-form {
+    text-align: center;
+}
+body {
+    COLOR: #ffffff;
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 12px;
+    BACKGROUND-COLOR: #808080;
+}
+
+td {
+    FONT-FAMILY: sans-serif;
+    FONT-SIZE: 12px;
+}
+
+a:link, A:VISITED, A:ACTIVE {
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline;
+}
+a:hover {
+    COLOR: #ffffff;
+    TEXT-DECORATION: none;
+}
+
+input {
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Tahoma,Helvetica;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #CFCFCF;
+    border-top-width : 1px;
+    border-right-width : 1px;
+    border-bottom-width : 1px;
+    border-left-width : 1px;
+    text-indent : 2px;
+}
