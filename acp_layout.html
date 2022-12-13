@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<title>Administration</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+<tr>
+<td align="center" valign="top">
+<table width="85%" border="0" cellspacing="0" cellpadding="0" height="100%">
+<tr height="50">
+<td width="120" height="50"></td>
+<td width="100%" height="50"><div class="header">&nbsp;&nbsp;&nbsp;Willkommen {{ $username }} </div></td>
+</tr>
+<tr height="100%">
+<td valign="top" width="120" height="100%">
+<table width="120" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="menuhead" onselectstart="return false">&nbsp;Übersicht</td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="index.php" class="menu">Home</a></td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="acp.php?action=appz&do=editappz" class="menu">Downloads</a></td>
+</tr>
+<tr>
+<td height="3"></td>
+</tr>
+<tr>
+<td class="menubody" style="border-top: 1px #000000 solid">&nbsp;<a href="acp.php?action=kategorie&do=ubersicht" class="menu"></a></td>
+</tr>
+<tr height="10">
+<td></td>
+</tr>
+<tr>
+<td class="menuhead" onselectstart="return false">&nbsp;Suchen</td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="search.php" class="menu">Filme / Serien</a></td>
+</tr>
+<tr height="10">
+<td></td>
+</tr>
+<tr>
+<td class="menuhead" onselectstart="return false">&nbsp;Stellenanzeige</td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="?" class="menu">Meine Anzeigen</a></td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="entry.php?do=new" class="menu">Anzeige erstellen</a></td>
+</tr>
+<tr height="10">
+<td></td>
+</tr>
+<tr>
+<td class="menuhead" onselectstart="return false">&nbsp;Mitglieder</td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="acp.php?action=user&do=ubersicht" class="menu">Mitglieder erstellen</a></td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="acp.php?action=server&do=ubersicht" class="menu">Mitglieder anzeigen</a></td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="acp.php?action=refresh&do=all" class="menu"><b></b></a></td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="acp.php" class="menu"></a></td>
+</tr>
+<tr height="10">
+<td></td>
+</tr>
+<tr>
+<td class="menuhead" onselectstart="return false">&nbsp;Logout</td>
+</tr>
+<tr>
+<td class="menubody">&nbsp;<a href="login.html" class="menu">Beenden</a></td>
+</tr>
+<tr height="20">
+<td height="20"></td>
+</tr>
+<tr>
+<td align="center"><font style="color: #D1D1D1;">Version: 1.0.0</font></td>
+</tr>
+</table>
+</td>
+<td align="center" valign="top" width="100%" height="100%">
+<div class="content">
+
+{index}
+
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+</table>
+</body>
+
+</html>
